@@ -2,6 +2,6 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/basic-dispatch-376816/test:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/basic-dispatch-376816/test:$SHORT_SHA', '.']
+  args: ['push', 'gcr.io/basic-dispatch-376816/test:$SHORT_SHA']
   
   
